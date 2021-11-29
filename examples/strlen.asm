@@ -1,8 +1,4 @@
-; read input into address 1
-; push it on the stack, including 0 (terminator) at the end
-; compare each element on the stack to 0
-; if 0 is found, its the NULL terminator we've put at the end of the string, so get out
-; increment ax and loop again
+; count the length of a string using memory and using the stack.
 
 push 1
 read
