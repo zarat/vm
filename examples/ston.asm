@@ -3,18 +3,21 @@
 ; no of digits on the stack
 ; base on the stack
 push 1 
-read 
+read
+
 push 1
 gets
+
 si ax
+dec ax
 
 push 10 ; base
-push ax ; no of digits
+ldr ax ; no of digits
 push 1  ; addr of string
 call string_to_number
 
 ; print result at ax 
-add ax 11
+mul ax 2
 ldr ax
 print
 
@@ -24,7 +27,7 @@ string_to_number:
     pop r1 ; address of string
     pop r2 ; no of digits
     dec r2
-    mov r3 10 ; base
+    pop r3 ;mov r3 10 ; base
     mov r4 0 ; final result 
     mov r5 1 ; current index
     call string_to_number_loop 
@@ -47,4 +50,5 @@ string_to_number_loop:
     jz string_to_number_loop_step
     ret
 
-end:      
+end: 
+    

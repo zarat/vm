@@ -1,3 +1,4 @@
+push 0
 push 100
 push 108
 push 114
@@ -9,7 +10,7 @@ push 108
 push 108
 push 101
 push 104
-push 11 ; lenght
+push 12 ; lenght
 push 1 ; location
 puts
 
@@ -22,7 +23,7 @@ push 10
 printc
 
 ; now we bring the memory onto the stack and print it character by character
-push 0 ; null terminator to mark the end
+;push 0 ; null terminator to mark the end
 push 1 ; memory location
 gets
 call print_string_from_stack

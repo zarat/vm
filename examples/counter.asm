@@ -1,4 +1,4 @@
-mov r1 0x1
+mov r1 1
 mov r2 10000
 
 main:
