@@ -6,4 +6,3 @@ A set of examples.
 |ston.asm|Convert a string into a number.|
 |strings.asm|2 ways to print a string using memory and using the stack.|
 |strlen.asm|2 ways to count the length of a string using memory and uing the stack.|
-|status.asm|Get the decimal status of a number with a given length.|
