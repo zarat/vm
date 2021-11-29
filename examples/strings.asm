@@ -46,7 +46,7 @@ print_string_from_memory_loop:
     ldr r3
     eq
     jz print_string_from_memory_end
-    ldr r3 ; add the last character back onto the stack, eq has removed it
+    push r3 ; add the last character back onto the stack, eq has removed it
     printc
     inc r2 ; increment index counter
     jmp print_string_from_memory_loop
