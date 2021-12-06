@@ -6,3 +6,4 @@ A 32 bit toy vm written in ANSII C executing compiled binaries based on a propri
 
 #### Plans
 * Virtual disks
+* Higher language
