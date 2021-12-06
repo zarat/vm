@@ -6,7 +6,7 @@
 ; switch to ARITH_INT
 int 10
 
-; divide 2 integers to create the float '2.14159'
+; divide 2 integers
 mov r1 100
 mov r2 10
 div r1 r2 
