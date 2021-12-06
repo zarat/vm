@@ -7,8 +7,8 @@
 int 10
 
 ; divide 2 integers
-mov r1 2674
-mov r2 2
+mov r1 267400
+mov r2 200
 div r1 r2 
 
 ; store at memory location 1
@@ -18,7 +18,7 @@ push 1
 push 1
 puts
 
-; retrieve from memory and print as integer
+; retrieve from memory and print as integer '1337'
 push 1
 gets
 push 'd'
