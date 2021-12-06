@@ -53,11 +53,13 @@ call strpos
 mov bx ax
 
 int 1 ; RW_CHAR
-push "First appearance of"
+push "First appearance of "
 si ax
+dec ax
 ldr ax
 push 2
 puts
+pop
 
 push 2
 write
@@ -69,8 +71,7 @@ printc
 printc
 printc
 
-push 0
-push " found at position"
+push " was found at position: "
 si ax
 ldr ax
 push 2
