@@ -7,11 +7,9 @@
 int 10
 
 ; divide 2 integers
-mov r1 100
-mov r2 10
+mov r1 2674
+mov r2 2
 div r1 r2 
-
-mul r1 3
 
 ; store at memory location 1
 int 2
