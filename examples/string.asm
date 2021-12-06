@@ -83,9 +83,6 @@ ldr bx
 push 'd'
 print
 
-push 10
-printc
-
 jmp end
 
 ; strpos
