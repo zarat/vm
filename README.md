@@ -13,6 +13,6 @@ vm script.zvm
 ```
 
 #### Features
-* Char, Integer and Float arithmetics.
-* Save memory to portable binaries.
-* Write programs in a fantasy assembly or a higher c-like language.
+* Char, Integer and Float arithmetics
+* Save memory to portable binaries
+* Write programs in a fantasy assembly or a higher c-like fantasy language
