@@ -1,4 +1,4 @@
-A 32 bit toy virtual machine written in C executing compiled binaries based on a fantasy instruction set. You can write programs in fantasy assembly language but also in a higher c-like language which is in development. For more information visit the [wiki](https://github.com/zarat/vm/wiki) or see some [examples](https://github.com/zarat/vm/tree/main/examples).
+A 32 bit toy virtual machine written in C executing compiled binaries based on a fantasy instruction set. You can write programs in fantasy assembly language but also in a higher c-like fantasy language which is in development. For more information visit the [wiki](https://github.com/zarat/vm/wiki) or see some [examples](https://github.com/zarat/vm/tree/main/examples).
 
 
 ```
@@ -15,7 +15,4 @@ vm script.zvm
 #### Features
 * Char, Integer and Float arithmetics.
 * Save memory to portable binaries.
-
-#### Plans
-* Virtual disks
-* Higher language
+* Write programs in a fantasy assembly or a higher c-like language.
