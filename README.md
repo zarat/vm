@@ -11,7 +11,18 @@ Print "Hello world" to screen using fantasy assembly
 
 ```Assembly
 si ax
-push "Hello world"
+push 100
+push 108
+push 114
+push 111
+push 119
+push 32
+push 111
+push 108
+push 108
+push 101
+push 72
+push 11 
 si bx
 sub bx ax
 push bx
