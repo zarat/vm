@@ -12,3 +12,4 @@ vm script.zvm
 #### Features
 * Char, Integer and Float arithmetics
 * Save memory to portable binaries
+* Programable in 2 fantasy languages (1 low level, 1 high level)
