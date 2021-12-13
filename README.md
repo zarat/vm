@@ -4,3 +4,26 @@ A 32 bit toy virtual machine written in C executing compiled binaries based on a
 * Char, Integer and Float arithmetics
 * Save memory to portable binaries
 * Programable in 2 fantasy languages (1 low level, 1 high level)
+
+#### Examples
+
+Print "Hello world" to screen using fantasy assembly
+
+```Assembly
+si ax
+push "Hello world"
+si bx
+sub bx ax
+push bx
+push 1
+puts
+push 1
+write
+```
+
+and using fantasy c
+
+```C
+str = "Hello world";
+write(str);
+```
