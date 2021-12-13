@@ -5,7 +5,7 @@ A 32 bit toy virtual machine written in C executing compiled binaries based on a
 * Save memory to portable binaries
 * Programable in 2 fantasy languages (1 low level, 1 high level)
 
-#### Examples
+#### Hello world Examples
 
 Print "Hello world" to screen using fantasy assembly
 
