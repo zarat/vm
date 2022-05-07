@@ -31,6 +31,8 @@ push 1
 write
 ```
 
+Using the tool as.exe you can compile it into a binary file and execute it using vm.exe.
+
 ```
 as assemblyname binaryname
 vm binaryname
@@ -38,10 +40,14 @@ vm binaryname
 
 #### Using fantasy c
 
+The tool tl.exe can translate a higher, c-like fantasy language like
+
 ```C
 str = "Hello world";
 write(str);
 ```
+
+into the vm's virtual assembly language which can be comiled using as.exe.
 
 ```
 tl scriptname > assemblyname
