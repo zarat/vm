@@ -1,4 +1,4 @@
-A 32 bit toy virtual machine written in C executing compiled binaries based on a fantasy instruction set. Also programable in a higher, c-like fantasy language. For more information visit the [wiki](https://github.com/zarat/vm/wiki).
+A 32 bit toy vm written in C/C++ executing compiled binaries based on a fantasy instruction set. Also programable in a higher, c-like fantasy language. For more information visit the [wiki](https://github.com/zarat/vm/wiki).
 
 ## Features
 * Char, Integer and Float arithmetics
