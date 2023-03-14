@@ -51,7 +51,7 @@ str = "Hello world";
 write(str);
 ```
 
-into the vm's virtual assembly language which can be comiled using as.exe.
+into the vm's virtual assembly language which can be compiled using as.exe.
 
 ```
 tl scriptname > assemblyname
