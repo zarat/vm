@@ -1,6 +1,6 @@
 ## My fantasy toolchain
 
-My (almost) complete fantasy toolchain from assembler over compiler down to a 32 bit toy virtual machine written in C/C++ executing bytecode based on a fantasy assembly instruction set. Also programable in a higher, c-like fantasy language. For more information visit the [wiki](https://github.com/zarat/vm/wiki).
+My (almost) complete fantasy toolchain from interpreter, assembler over compiler down to a 32 bit toy virtual machine written in C/C++ executing bytecode based on a fantasy assembly instruction set. Also programable in a higher, c-like fantasy language. For more information visit the [wiki](https://github.com/zarat/vm/wiki).
 
 Find sources [here](https://github.com/zarat/vm-src).
 
