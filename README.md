@@ -1,4 +1,4 @@
-## My fantasy toolchain
+## Toy VM
 
 A 32 bit toy virtual machine written in C/C++ executing bytecode based on a fantasy assembly instruction set. For more information visit the [wiki](https://github.com/zarat/vm/wiki).
 
